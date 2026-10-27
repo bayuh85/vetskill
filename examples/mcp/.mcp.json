@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem@2025.8.21", "./docs"]
+    },
+    "web-helper": {
+      "command": "npx",
+      "args": ["-y", "web-helper-mcp"],
+      "env": { "HELPER_TOKEN": "${HELPER_TOKEN}" }
+    }
+  }
+}
